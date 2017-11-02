@@ -1,0 +1,7 @@
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.dll
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.pdb
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.Model.dll
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.Model.pdb
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csprojResolveAssemblyReference.cache
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.dll
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.pdb

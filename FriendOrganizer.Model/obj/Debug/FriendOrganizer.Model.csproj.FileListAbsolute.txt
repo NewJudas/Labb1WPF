@@ -1,0 +1,5 @@
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.Model\bin\Debug\FriendOrganizer.Model.dll
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.Model\bin\Debug\FriendOrganizer.Model.pdb
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.csprojResolveAssemblyReference.cache
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.dll
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.pdb
