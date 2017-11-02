@@ -46,3 +46,8 @@ C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganiz
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.pdb
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\View\NavigationView.g.cs
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\View\NavigationView.baml
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.g.cs
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\View\FriendDetailView.baml
