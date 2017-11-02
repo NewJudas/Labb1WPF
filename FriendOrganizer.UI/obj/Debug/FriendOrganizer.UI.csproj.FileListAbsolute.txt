@@ -18,3 +18,6 @@ c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOr
 c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.pdb
 c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Autofac.dll
 c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.UI\bin\Debug\Autofac.xml
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.dll
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.UI\bin\Debug\FriendOrganizer.DataAccess.dll.config
+c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.xml
