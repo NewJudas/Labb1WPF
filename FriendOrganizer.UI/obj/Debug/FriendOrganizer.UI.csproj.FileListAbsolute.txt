@@ -21,3 +21,28 @@ c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOr
 c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.dll
 c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.UI\bin\Debug\FriendOrganizer.DataAccess.dll.config
 c:\users\computer\documents\visual studio 2017\Projects\FriendOrganizer\FriendOrganizer.UI\bin\Debug\EntityFramework.xml
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\FriendOrganizer.UI.exe.config
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\FriendOrganizer.UI.exe
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\FriendOrganizer.UI.pdb
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\Autofac.dll
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\FriendOrganizer.DataAccess.dll
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\FriendOrganizer.Model.dll
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\EntityFramework.dll
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\FriendOrganizer.DataAccess.pdb
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\FriendOrganizer.DataAccess.dll.config
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\FriendOrganizer.Model.pdb
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\Autofac.xml
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\EntityFramework.xml
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.csprojResolveAssemblyReference.cache
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\MainWindow.g.cs
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\App.g.cs
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI_MarkupCompile.cache
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI_MarkupCompile.lref
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\MainWindow.baml
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.g.resources
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.Properties.Resources.resources
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.csproj.GenerateResource.Cache
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.exe
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.pdb
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\EntityFramework.SqlServer.xml
