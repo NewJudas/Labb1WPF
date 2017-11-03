@@ -8,16 +8,16 @@ namespace FriendOrganizer.UI.ViewModel
     public class MainViewModel:ViewModelBase
     {
 
-        public MainViewModel(INavigationViewModel navigationViewModel, IFriendDetailsViewModel friendDetalsViewModel)
+        public MainViewModel(INavigationViewModel navigationViewModel, IFriendDetailViewModel friendDetalViewModel)
         {
             NavigationViewModel = navigationViewModel;
-            FriendDetailsViewModel = friendDetalsViewModel;
+            FriendDetailViewModel = friendDetalViewModel;
         }
         public async Task LoadAsync()
         {
             await NavigationViewModel.LoadAsync();
         }
         public INavigationViewModel NavigationViewModel { get; }
-        public IFriendDetailsViewModel FriendDetailsViewModel { get; }
+        public IFriendDetailViewModel FriendDetailViewModel { get; }
     }
 }
