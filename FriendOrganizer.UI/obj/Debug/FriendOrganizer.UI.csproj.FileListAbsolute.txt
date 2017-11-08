@@ -30,3 +30,4 @@ C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganiz
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.csproj.GenerateResource.Cache
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.exe
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\FriendOrganizer.UI.pdb
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\App.baml
