@@ -2,4 +2,3 @@ C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganiz
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.Model\bin\Debug\FriendOrganizer.Model.pdb
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.dll
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.pdb
-C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.Model\obj\Debug\FriendOrganizer.Model.csprojResolveAssemblyReference.cache
