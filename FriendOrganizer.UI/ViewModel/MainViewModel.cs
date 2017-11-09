@@ -1,4 +1,5 @@
-﻿using FriendOrganizer.UI.Event;
+﻿using Autofac.Features.Indexed;
+using FriendOrganizer.UI.Event;
 using FriendOrganizer.UI.View.Services;
 using Prism.Commands;
 using Prism.Events;
@@ -11,18 +12,19 @@ namespace FriendOrganizer.UI.ViewModel
     public class MainViewModel:ViewModelBase
     {
         private IEventAggregator _eventAggregator;
-        private Func<IFriendDetailViewModel> _friendDetalViewModelCreator;
         private IDetailViewModel _detailViewModel;
         private IMessageDialogService _messageDialogService;
+        private IIndex<string, IDetailViewModel> _detailViewModelCreater;
 
         public MainViewModel(INavigationViewModel navigationViewModel,
-            Func<IFriendDetailViewModel> friendDetalViewModelCreator, 
+            IIndex<string,IDetailViewModel> detailViewModelCreater,
             IEventAggregator eventAggregator,
             IMessageDialogService messageDialogService )
         {
-            _eventAggregator = eventAggregator;            
-            _friendDetalViewModelCreator = friendDetalViewModelCreator;
+            _eventAggregator = eventAggregator;
+            _detailViewModelCreater = detailViewModelCreater;
             _messageDialogService = messageDialogService;
+
             _eventAggregator.GetEvent<OpenDetailViewEvent>().Subscribe(OnOpenDetailView);
             _eventAggregator.GetEvent<AfterDetailDeletedEvent>().Subscribe(AfterDetailDeleted);
 
@@ -56,15 +58,9 @@ namespace FriendOrganizer.UI.ViewModel
                     return;
                 }
             }
+            DetailViewModel = _detailViewModelCreater[args.ViewModelName];
 
-            switch (args.ViewModelName)
-            {
-                case nameof(FriendDetailViewModel):
-                    DetailViewModel = _friendDetalViewModelCreator();
-                    break;
-            }
-            
-            await DetailViewModel.LoadAsync(args.Id);
+           await DetailViewModel.LoadAsync(args.Id);
         }
 
         private void OnCreateNewDetailExecute(Type viewModelType)
