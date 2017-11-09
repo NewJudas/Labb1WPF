@@ -13,3 +13,4 @@ C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganiz
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.dll
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.pdb
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.Migrations.AddedProgrammingLanguages.resources
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.Migrations.AddedFriendPhoneNumbers.resources
