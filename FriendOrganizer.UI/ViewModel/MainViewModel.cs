@@ -74,7 +74,7 @@ namespace FriendOrganizer.UI.ViewModel
                 }
                 catch
                 {
-                    _messageDialogService.ShowInfoDialog("The Entity has been deleted! We will refresh the navigation for you");
+                    await _messageDialogService.ShowInfoDialogAsync("The Entity has been deleted! We will refresh the navigation for you");
                     await NavigationViewModel.LoadAsync();
                     return;
                 }

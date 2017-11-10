@@ -100,11 +100,11 @@ namespace FriendOrganizer.UI.ViewModel
             });
         }
 
-        protected virtual void OnCloseDetailViewExecte()
+        protected async virtual void OnCloseDetailViewExecte()
         {
             if (HasChanges)
             {
-                var result = MessageDialogService.ShowOkCancelDialog(
+                var result = await MessageDialogService.ShowOkCancelDialogAsync(
                     "You have made changes, close this item?", "Question");
                 if(result == MessageDialogResult.Cancel)
                 {
@@ -130,12 +130,12 @@ namespace FriendOrganizer.UI.ViewModel
                 var databaseValues = ex.Entries.Single().GetDatabaseValues();
                 if (databaseValues == null)
                 {
-                    MessageDialogService.ShowInfoDialog("The entity has been deleted!");
+                    await MessageDialogService.ShowInfoDialogAsync("The entity has been deleted!");
                     RaiseDetailDeletedEvent(Id);
                     return;
                 }
 
-                var result = MessageDialogService.ShowOkCancelDialog("The entity has ben changed already if you click Ok you will override that, else click cancel!", "Question");
+                var result = await MessageDialogService.ShowOkCancelDialogAsync("The entity has ben changed already if you click Ok you will override that, else click cancel!", "Question");
                 if (result == MessageDialogResult.Ok)
                 {
                     var entry = ex.Entries.Single();

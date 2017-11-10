@@ -100,7 +100,7 @@ namespace FriendOrganizer.UI.ViewModel
                 {
                     ex = ex.InnerException;
                 }
-                MessageDialogService.ShowInfoDialog("Error while saving. The Language belongs to someone! No save was made!");
+                await MessageDialogService.ShowInfoDialogAsync("Error while saving. The Language belongs to someone! No save was made!");
                 await LoadAsync(Id);
             }
        
@@ -117,7 +117,7 @@ namespace FriendOrganizer.UI.ViewModel
                 IsReferencedByFriendAsync(SelectedProgrammingLanguage.Id);
             if (isReferenced)
             {
-                MessageDialogService.ShowInfoDialog($"Language: {SelectedProgrammingLanguage.Name} Cant be removed as its at least one friends favorite");
+                await MessageDialogService.ShowInfoDialogAsync($"Language: {SelectedProgrammingLanguage.Name} Cant be removed as its at least one friends favorite");
                 return;
             }
 

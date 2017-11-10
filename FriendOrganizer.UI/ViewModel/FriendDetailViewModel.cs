@@ -173,10 +173,10 @@ namespace FriendOrganizer.UI.ViewModel
         {
             if(await _friendRepository.HasMeetingsAsync(Friend.Id))
             {
-                MessageDialogService.ShowInfoDialog($"{Friend.FirstName} {Friend.LastName} cant be deleted because he/she is registerd in a meeting!");
+                await MessageDialogService.ShowInfoDialogAsync($"{Friend.FirstName} {Friend.LastName} cant be deleted because he/she is registerd in a meeting!");
                     return;
             }
-            var result = MessageDialogService.ShowOkCancelDialog($"Do you really want to delete {Friend.FirstName} {Friend.LastName}",
+            var result = await MessageDialogService.ShowOkCancelDialogAsync($"Do you really want to delete {Friend.FirstName} {Friend.LastName}",
                 "Question?");
             if (result == MessageDialogResult.Ok)
             {
