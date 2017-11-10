@@ -68,12 +68,20 @@ namespace FriendOrganizer.UI.ViewModel
             if(detailViewModel == null)
             {
                 detailViewModel = _detailViewModelCreater[args.ViewModelName];
-                await detailViewModel.LoadAsync(args.Id);
+                try
+                {
+                    await detailViewModel.LoadAsync(args.Id);
+                }
+                catch
+                {
+                    _messageDialogService.ShowInfoDialog("The Entity has been deleted! We will refresh the navigation for you");
+                    await NavigationViewModel.LoadAsync();
+                    return;
+                }
                 DetailViewModels.Add(detailViewModel);
             }
 
             SelectedDetailViewModel = detailViewModel;
-           
         }
 
         private int nextNewItemId = 0;
