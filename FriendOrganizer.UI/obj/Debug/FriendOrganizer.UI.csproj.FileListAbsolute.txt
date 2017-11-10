@@ -49,3 +49,5 @@ C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganiz
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\View\MeetingDetailView.g.cs
 C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\View\MeetingDetailView.baml
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\View\ProgrammingLanguageDetailView.g.cs
+C:\Users\Kenan Alic\Documents\Visual Studio 2017\Projects\Labb1WPF\FriendOrganizer.UI\obj\Debug\View\ProgrammingLanguageDetailView.baml
