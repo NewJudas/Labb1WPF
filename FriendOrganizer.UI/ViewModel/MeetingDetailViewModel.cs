@@ -22,7 +22,6 @@ namespace FriendOrganizer.UI.ViewModel
         private Friend _selectedAvailableFriend;
         private Friend _selectedAddedFriend;
         private List<Friend> _allFriends;
-        //private Weather _weather;
         private WeatherWrapper _weather;
         private IAPIClient _IApiClient;
         
@@ -102,7 +101,7 @@ namespace FriendOrganizer.UI.ViewModel
 
             SetupPicklist();
 
-                _weather = new WeatherWrapper(await _IApiClient.RunAsync(Meeting.DateFrom));
+                _weather = new WeatherWrapper(await _IApiClient.RunAsync(DateTime.Now));
 
         }
 

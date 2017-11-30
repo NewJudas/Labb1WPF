@@ -32,7 +32,6 @@ namespace FriendOrganizer.UI.ViewModel
 
         public async Task LoadAsync()
         {
-            //var lookup = await _friendLookupService.GetFriendLookupAsync();
             IEnumerable<LookupItem> lookup = null;
             await System.Threading.Tasks.Task.Run(async () => lookup = await _friendLookupService.GetFriendLookupAsync());
             Friends.Clear();
