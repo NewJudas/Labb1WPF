@@ -5,6 +5,10 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using System;
+using System.Collections;
+using FriendOrganizer.Model;
+using System.Collections.Generic;
+using FriendOrganizer.DataAccess.API;
 
 namespace FriendOrganizer.UI.ViewModel
 {
@@ -28,7 +32,9 @@ namespace FriendOrganizer.UI.ViewModel
 
         public async Task LoadAsync()
         {
-            var lookup = await _friendLookupService.GetFriendLookupAsync();
+            //var lookup = await _friendLookupService.GetFriendLookupAsync();
+            IEnumerable<LookupItem> lookup = null;
+            await System.Threading.Tasks.Task.Run(async () => lookup = await _friendLookupService.GetFriendLookupAsync());
             Friends.Clear();
             foreach (var item in lookup)
             {

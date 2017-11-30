@@ -1,4 +1,5 @@
-﻿using FriendOrganizer.Model;
+﻿using FriendOrganizer.DataAccess.API;
+using FriendOrganizer.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;

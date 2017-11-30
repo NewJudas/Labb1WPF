@@ -1,4 +1,5 @@
-﻿using FriendOrganizer.UI.Event;
+﻿using FriendOrganizer.DataAccess.API;
+using FriendOrganizer.UI.Event;
 using FriendOrganizer.UI.View.Services;
 using Prism.Commands;
 using Prism.Events;

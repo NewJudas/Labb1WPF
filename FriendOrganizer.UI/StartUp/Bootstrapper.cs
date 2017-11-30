@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using FriendOrganizer.DataAccess;
+using FriendOrganizer.DataAccess.API;
 using FriendOrganizer.UI.Data;
 using FriendOrganizer.UI.Data.Lookups;
 using FriendOrganizer.UI.Data.Repositories;
@@ -17,6 +18,7 @@ namespace FriendOrganizer.UI.StartUp
 
             builder.RegisterType<EventAggregator>().As<IEventAggregator>().SingleInstance();
 
+            builder.RegisterType<APIClient>().As<IAPIClient>().SingleInstance();
             builder.RegisterType<FriendOrganizerDbContext>().AsSelf();
             builder.RegisterType<MainWindow>().AsSelf();
             builder.RegisterType<MessageDialogService>().As<IMessageDialogService>();

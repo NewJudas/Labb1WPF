@@ -1,6 +1,9 @@
 ﻿using Autofac.Features.Indexed;
+using FriendOrganizer.DataAccess.API;
+using FriendOrganizer.Model;
 using FriendOrganizer.UI.Event;
 using FriendOrganizer.UI.View.Services;
+using FriendOrganizer.UI.Wrapper;
 using Prism.Commands;
 using Prism.Events;
 using System;
@@ -42,6 +45,7 @@ namespace FriendOrganizer.UI.ViewModel
         public async Task LoadAsync()
         {
             await NavigationViewModel.LoadAsync();
+
         }
         public ICommand CreateNewDetailCommand { get; }
         public ICommand OpenSingleDetailViewCommand { get; }
@@ -59,6 +63,8 @@ namespace FriendOrganizer.UI.ViewModel
                 OnPropertyChanged();
             }
         }
+
+    
 
         private async void OnOpenDetailView(OpenDetailViewEventArgs args)
         {

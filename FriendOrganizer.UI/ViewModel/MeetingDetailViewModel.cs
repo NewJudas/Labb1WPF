@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Collections.Generic;
 using System.Linq;
 using FriendOrganizer.UI.Event;
+using FriendOrganizer.DataAccess.API;
 
 namespace FriendOrganizer.UI.ViewModel
 {
@@ -21,12 +22,16 @@ namespace FriendOrganizer.UI.ViewModel
         private Friend _selectedAvailableFriend;
         private Friend _selectedAddedFriend;
         private List<Friend> _allFriends;
+        //private Weather _weather;
+        private WeatherWrapper _weather;
+        private IAPIClient _IApiClient;
+        
 
-        public MeetingDetailViewModel(IEventAggregator eventAggregator, IMessageDialogService messageDialogService,
+        public MeetingDetailViewModel(IEventAggregator eventAggregator, IAPIClient APIClient, IMessageDialogService messageDialogService,
            IMeetingRepository meetingRepository) : base(eventAggregator , messageDialogService)
         {
             _meetingRepository = meetingRepository;
-
+            _IApiClient = APIClient;
             eventAggregator.GetEvent<AfterDetailSavedEvent>().Subscribe(AfterDetailSaved);
             eventAggregator.GetEvent<AfterDetailDeletedEvent>().Subscribe(AfterDetailDeleted);
 
@@ -35,6 +40,7 @@ namespace FriendOrganizer.UI.ViewModel
             AddFriendCommand = new DelegateCommand(OnAddFriendExecute, OnAddFriendCanExecute);
             RemoveFriendCommand = new DelegateCommand(OnRemoveFriendExecute, OnRemoveFriendCanExecute);
         }
+
 
         public MeetingWrapper Meeting
         {
@@ -45,6 +51,8 @@ namespace FriendOrganizer.UI.ViewModel
                 OnPropertyChanged();
             }
         }
+
+
 
         public ICommand AddFriendCommand { get; }
         public ICommand RemoveFriendCommand { get; }
@@ -74,6 +82,13 @@ namespace FriendOrganizer.UI.ViewModel
             }
         }
 
+        public WeatherWrapper Weather
+        {
+            get { return _weather; }
+            set { _weather = value; }
+        }
+
+
         public override async Task LoadAsync(int meetingId)
         {
             var meeting = meetingId>0
@@ -83,9 +98,12 @@ namespace FriendOrganizer.UI.ViewModel
             Id = meetingId;
             InitializeMeeting(meeting);
 
-          _allFriends = await _meetingRepository.GetAllFriendsAsync();
+            _allFriends = await _meetingRepository.GetAllFriendsAsync();
 
             SetupPicklist();
+
+                _weather = new WeatherWrapper(await _IApiClient.RunAsync(Meeting.DateFrom));
+
         }
 
 
@@ -151,7 +169,6 @@ namespace FriendOrganizer.UI.ViewModel
                 {
                     HasChanges = _meetingRepository.HasChanges();
                 }
-
                 if (e.PropertyName == nameof(Meeting.HasErrors))
                 {
                     ((DelegateCommand)SaveCommand).RaiseCanExecuteChanged();

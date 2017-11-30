@@ -39,7 +39,7 @@
             <MenuItem Header="Edit">
                 <MenuItem Header="ProgrammingLangueges" Command="{Binding OpenSingleDetailViewCommand}"
                           CommandParameter="{x:Type viewModel:ProgrammingLanguageDetailViewModel}">
-                    
+
                 </MenuItem>
             </MenuItem>
         </Menu>
@@ -67,4 +67,5 @@
             </TabControl.ItemTemplate>
         </TabControl>
     </Grid>
+    
 </Controls:MetroWindow>

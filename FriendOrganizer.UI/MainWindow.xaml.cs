@@ -1,5 +1,7 @@
-﻿using FriendOrganizer.UI.ViewModel;
+﻿using FriendOrganizer.DataAccess.API;
+using FriendOrganizer.UI.ViewModel;
 using MahApps.Metro.Controls;
+using System;
 using System.Windows;
 
 namespace FriendOrganizer.UI
@@ -18,6 +20,6 @@ namespace FriendOrganizer.UI
         private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
             await _viewModel.LoadAsync();
-        }
+      }
     }
 }
